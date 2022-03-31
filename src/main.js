@@ -59,6 +59,23 @@ var titles = [
   "wisdom"
 ];
 var quotes = [
+  // "Some of the worst things in my life never happened."
+  // "If you want to be loved, be loveable."
+  // "Questions you cannot answer are better than answers you cannot question.""
+  // "To know enough is enough is enough to know."
+  // "You are something the Universe is doing in the same way a wave is something the ocean is doing"
+  // "You're not as bad as they made you feel."
+  // "Don’t believe everything that you think."
+  // "If you are living in fear you cannot live genuinely because you are always in a defensive stance."
+  // "If you don’t deal with your demons, they go into the cellar of your soul and lift weights."
+  // "A net is a bunch of holes tied together with string."
+  // "We are not units of commodified energy that can be controlled."
+  // "The task is not yours to finish but neither are you free not to take part in it"
+  // "Eat a live frog first thing in the morning and nothing worse will happen for the rest of the day"
+  // "You can pray for rain, but you better dig a well, as well."
+  // "You can't stop the waves, but you can learn how to surf."
+  // "If you want to ride the train, you gotta' lay down the tracks."
+  // "All we have to do is decide what to do with the time that is given us."
   "Don’t downgrade your dream just to fit your reality, upgrade your conviction to match your destiny.",
   "You are braver than you believe, stronger than you seem and smarter than you think.",
   "You are confined only by the walls you build yourself.",
@@ -101,10 +118,7 @@ var quotes = [
 var savedPosters = [];
 var currentPoster;
 
-// event listeners go here 👇
 
-// functions and event handlers go here 👇
-// (we've provided one for you to get you started)!
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
@@ -114,3 +128,17 @@ function getRandomElement(array) {
   let randomItem = array[randomNum]
   return randomItem
 }
+
+document.querySelector(".show-random").addEventListener("click", RandomPoster)
+
+function getRandomPoster() {
+  var randomImage = getRandomIndex(images)
+  var randomTitle = getRandomIndex(titles)
+  var randomQuotes = getRandomIndex(quotes)
+  var randomPoster = new Poster(randomImage, randomTitle, randomQuotes)
+  return randomPoster; // currentPoster = randomPoster so when button is clicked it states what current Poster is
+}
+//Make 'getRandomPoster' function for loop that infinitely grabs random keys from arrays and is default page
+//Make 'savePoster' function - if button is clicked, store these keys in an array/object
+//Make 'showSavedPosters' class - if clicked, display each object saved in class
+// If click 'Show Another Random Poster' run 'getRandomPoster" function'
