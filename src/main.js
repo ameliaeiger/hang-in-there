@@ -278,6 +278,7 @@ function getFormData() {
   return userPoster
 }
 
+
 function captureAsObject() {
   let currentDisplayImage = document.getElementById("poster-img").src
   let currentDisplayQuote = document.getElementById("quote-button").innerText;
@@ -285,6 +286,8 @@ function captureAsObject() {
   let newObject = new Poster (currentDisplayImage, currentDisplayTitle, currentDisplayQuote);
   return newObject
 }
+
+
 // Stores posters as objects until saved poster area is full
 function storeData() {
   let myPoster = captureAsObject()
@@ -302,6 +305,7 @@ if (!newArray[i]) {
          return newArray
        }
   }
-//function displaySaved() {
-//  let savedAredocument.querySelector("saved-posters-grid")
-//}
+
+  //function displaySaved() {
+  //  let savedAredocument.querySelector("saved-posters-grid")
+  //}
