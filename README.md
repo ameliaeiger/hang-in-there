@@ -15,7 +15,7 @@ View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there-boile
 
 1. Randomly generated poster upon load
 2. Make your own with provided images, titles, and quotes
-3. Make your own with your own, title, and quote
+3. Make your own with your own image, title, and quote
 4. Save your favorite posters
 5. Delete saved posters by double clicking
 
