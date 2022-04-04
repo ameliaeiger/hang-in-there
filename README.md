@@ -1,18 +1,25 @@
 # Hang In There
 
-A boilerplate repo. 
+A Turing School of Software and Design project.
 
-## Set Up
+## Deployed Page 
 
-1. One teammate: fork this repository
-2. Clone down your new, forked repo
-3. cd into the repository
-4. Open it in your text editor
-5. Add all project partners and your assigned instructor as collaborators on the repository
+View our deployed page here: https://ameliaeiger.github.io/hang-in-there-boilerplate/
 
-Project spec & rubric can be found [here](https://frontend.turing.io/projects/module-1/hang-in-there.html)
+## Contributors
 
-To view your project:
+Amelia Eiger
+Patrick Becker
 
-1. In your terminal, navigate to your project repo
-2. Run the command `open index.html`
+## Features:
+
+1. Randomly generated poster upon load
+2. Make your own with provided images, titles, and quotes
+3. Save your favorite posters
+4. Delete saved posters by double clicking
+
+## Extension Features:
+
+1. Choice of background color with the push of a button
+2. Saved posters will keep their background color
+3. Clicking on individual component parts (poster image, title, and quote) will result in the ability to randomly generate a new one
