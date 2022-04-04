@@ -19,6 +19,8 @@ View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there-boile
 
  - Make your own with provided images, titles, and quotes
 
+ - Make your own with your own images, titles, and quotes
+
  - Save up to 10 of your favorite posters
 
  - Changed your mind? Delete saved posters by double clicking
