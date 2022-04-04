@@ -21,10 +21,17 @@ View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there-boile
 
 ## Extension Features:
 
-1. Choice of background color with the push of a button
-2. Saved posters will keep their background color
-3. Clicking on individual component parts (poster image, title, and quote) will result in the ability to randomly generate a new one
-4. Cursor will turn to pointer upon hover, allowing the user to differentiate which components can be manipulated on click
+# 1. Choice of background color with the push of a button
+- Saved posters will keep their background color
+
+![Color Background Feature](https://imgur.com/ZbTACz7.png)
 
 
-![picture](https://imgur.com/ZbTACz7.png)
+# 2. Image, title, and quote components can each be changed independently upon mouse click
+- Replacement will be randomly generated from pre-existing arrays which include input user data
+
+# 3. CSS styling added to indicate to user which items are clickable
+- Cursor turns to pointer upon mouseover
+- Title and quote button backgrounds turn opaque upon mouseover
+- Shadow appears under image upon mouseover
+![Hover Feature](https://imgur.com/RvDmC2R.png)
