@@ -25,3 +25,6 @@ View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there-boile
 2. Saved posters will keep their background color
 3. Clicking on individual component parts (poster image, title, and quote) will result in the ability to randomly generate a new one
 4. Cursor will turn to pointer upon hover, allowing the user to differentiate which components can be manipulated on click
+
+
+![picture](https://imgur.com/ZbTACz7.png)
