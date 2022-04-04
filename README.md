@@ -4,19 +4,20 @@ A Turing School of Software and Design project.
 
 ## Deployed Page 
 
-View our deployed page here: https://ameliaeiger.github.io/hang-in-there-boilerplate/
+View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there-boilerplate/)
 
 ## Contributors
 
-Amelia Eiger
-Patrick Becker
+- Amelia Eiger
+- Patrick Becker
 
 ## Features:
 
 1. Randomly generated poster upon load
 2. Make your own with provided images, titles, and quotes
-3. Save your favorite posters
-4. Delete saved posters by double clicking
+3. Make your own with your own, title, and quote
+4. Save your favorite posters
+5. Delete saved posters by double clicking
 
 ## Extension Features:
 
