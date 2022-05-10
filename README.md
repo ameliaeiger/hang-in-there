@@ -4,7 +4,7 @@ A Turing School of Software and Design project.
 
 ## Deployed Page 
 
-View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there-boilerplate/)
+View our deployed page [here!](https://ameliaeiger.github.io/hang-in-there)
 
 ## Contributors
 
